@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", type="text/css", href="style.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <div id="name">
+            <h1>Vivek Venugopal</h1>
+            <p>Web Developer & Designer | Tech Enthusiast | AI/ML Engineer</p>
+        </div>
+        <div id="subheader">
+            <a href="home.html" class="sub-box">Home</a>
+            <a href="aboutme.html" class="sub-box">About Me</a>
+            <a href="education.html" class="sub-box">Education</a>
+            <a href="skills.html" class="sub-box">Skills</a>
+            <a href="projects.html" class="sub-box">Projects</a>
+        </div>
+    </header>
+    <div id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <p class="role-title">I am contacting you as:</p>
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="role" value="connect" required>
+                Just want to connect
+            </label>
+            <label>
+                <input type="radio" name="role" value="recruiter">
+                Recruiter
+            </label>
+            <label>
+                <input type="radio" name="role" value="academic">
+                Academic Professional
+            </label>
+        </div>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5"
+            placeholder="Write your message here..." required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+    <footer>
+        <div id="name"><p>Email: abc@gmail.com | Phone: +1234567890</p></div>
+        <p style="color: white">2025 CopyRight</p>
+    </footer>
+</body>
+</html>
